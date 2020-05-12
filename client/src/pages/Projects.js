@@ -1,6 +1,7 @@
 import React from "react";
 import projects from "../projects.json";
 import Proj from "../components/Proj";
+
 const Projects = () => {
   return (
     <div class="container main mb-4 mt-3">
