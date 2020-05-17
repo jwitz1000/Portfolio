@@ -1,8 +1,11 @@
 import React from "react";
+import Constants from "../assets/constants";
 
 const Home = () => {
   return (
     <div>
+      <div className="triangle" />
+      <div className="box" />
       <div className="container main mt-3">
         <div className="row">
           <div className="col-sm-12">
@@ -12,7 +15,7 @@ const Home = () => {
         <div className="row">
           <div className="col-sm-12">
             <img
-              src="./assets/images/me.jpg"
+              src={Constants.IMAGES.HEADSHOT}
               className="float-left mr-3 mb-2 image-fluid"
               alt="profile pic"
               width="200"
