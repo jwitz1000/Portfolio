@@ -10,7 +10,7 @@ function Proj(props) {
             src={props.value.image}
             class="image-responsive"
             width="100%"
-            alt="project image"
+            alt="project"
           />
         </a>
       </div>

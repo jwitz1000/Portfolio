@@ -8,29 +8,45 @@ class SideBar extends Component {
         <ul className="icon-ul">
           <li className="icon-list">
             <span>
-              <a href={Constants.LINKS.EMAIL} target="_blank">
-                <img className="icon pop" src={Constants.ICONS.EMAIL} />
+              <a href={Constants.LINKS.EMAIL}>
+                <img
+                  className="icon pop"
+                  src={Constants.ICONS.EMAIL}
+                  alt="icon"
+                />
               </a>
             </span>
           </li>
           <li className="icon-list">
             <span>
-              <a href={Constants.LINKS.LINKEDIN} target="_blank">
-                <img className="icon pop" src={Constants.ICONS.LINKEDIN} />
+              <a href={Constants.LINKS.LINKEDIN}>
+                <img
+                  className="icon pop"
+                  src={Constants.ICONS.LINKEDIN}
+                  alt="icon"
+                />
               </a>
             </span>
           </li>
           <li className="icon-list">
             <span>
-              <a href={Constants.LINKS.GITHUB} target="_blank">
-                <img className="icon pop" src={Constants.ICONS.GITHUB} />
+              <a href={Constants.LINKS.GITHUB}>
+                <img
+                  className="icon pop"
+                  src={Constants.ICONS.GITHUB}
+                  alt="icon"
+                />
               </a>
             </span>
           </li>
           <li className="icon-list">
             <span>
-              <a href={Constants.LINKS.RESUME} target="_blank">
-                <img className="icon pop" src={Constants.ICONS.RESUME} />
+              <a href={Constants.LINKS.RESUME}>
+                <img
+                  className="icon pop"
+                  src={Constants.ICONS.RESUME}
+                  alt="icon"
+                />
               </a>
             </span>
           </li>
