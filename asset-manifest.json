@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.js": "/static/js/main.c5ed52f1.chunk.js",
-    "main.js.map": "/static/js/main.c5ed52f1.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.7e4b9196.js",
-    "runtime-main.js.map": "/static/js/runtime-main.7e4b9196.js.map",
-    "static/js/2.b6f1e2a4.chunk.js": "/static/js/2.b6f1e2a4.chunk.js",
-    "static/js/2.b6f1e2a4.chunk.js.map": "/static/js/2.b6f1e2a4.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.d6a55103b8c9381828962b7816ab4309.js": "/precache-manifest.d6a55103b8c9381828962b7816ab4309.js",
-    "service-worker.js": "/service-worker.js",
-    "static/js/2.b6f1e2a4.chunk.js.LICENSE.txt": "/static/js/2.b6f1e2a4.chunk.js.LICENSE.txt",
-    "static/media/Arman-1.png": "/static/media/Arman-1.b124a19b.png",
-    "static/media/pulpficiton.png": "/static/media/pulpficiton.9be22fc3.png",
-    "static/media/screddit.png": "/static/media/screddit.96d1c1cf.png"
+    "main.js": "/Portfolio/static/js/main.c5ed52f1.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.c5ed52f1.chunk.js.map",
+    "runtime-main.js": "/Portfolio/static/js/runtime-main.d26897fe.js",
+    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.d26897fe.js.map",
+    "static/js/2.b6f1e2a4.chunk.js": "/Portfolio/static/js/2.b6f1e2a4.chunk.js",
+    "static/js/2.b6f1e2a4.chunk.js.map": "/Portfolio/static/js/2.b6f1e2a4.chunk.js.map",
+    "index.html": "/Portfolio/index.html",
+    "precache-manifest.3c4040ace554e3e2c59738a9b1fdbcc8.js": "/Portfolio/precache-manifest.3c4040ace554e3e2c59738a9b1fdbcc8.js",
+    "service-worker.js": "/Portfolio/service-worker.js",
+    "static/js/2.b6f1e2a4.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.b6f1e2a4.chunk.js.LICENSE.txt",
+    "static/media/Arman-1.png": "/Portfolio/static/media/Arman-1.b124a19b.png",
+    "static/media/pulpficiton.png": "/Portfolio/static/media/pulpficiton.9be22fc3.png",
+    "static/media/screddit.png": "/Portfolio/static/media/screddit.96d1c1cf.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.7e4b9196.js",
+    "static/js/runtime-main.d26897fe.js",
     "static/js/2.b6f1e2a4.chunk.js",
     "static/js/main.c5ed52f1.chunk.js"
   ]
