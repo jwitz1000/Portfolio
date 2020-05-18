@@ -10,8 +10,7 @@ function Proj(props) {
             src={props.value.image}
             class="image-responsive"
             width="100%"
-            id="redditImg"
-            alt="profile pic"
+            alt="project image"
           />
         </a>
       </div>
