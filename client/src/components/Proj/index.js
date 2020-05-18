@@ -3,7 +3,7 @@ import React from "react";
 function Proj(props) {
   console.log(props);
   return (
-    <div class="row slot">
+    <div class="row slot mb-3">
       <div class="col-sm-3">
         <a href={props.value.link}>
           <img

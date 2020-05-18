@@ -40,7 +40,7 @@ const Constants = {
       description:
         "A full stack web application that mimics the primary functionality of the popular discussion forum 'Reddit'. Built with Node.js, Express, MySQL, and jQuery.",
       github: "https://github.com/namrataffy/Reddit_Clone",
-      image: "./assets/images/screddit.png",
+      image: require("./images/screddit.png"),
       link: "https://reddit-clone-ucb.herokuapp.com/",
     },
     {
@@ -48,7 +48,7 @@ const Constants = {
       description:
         "A web app that leverages Guidebox API to allow users to search for movies and add/remove them from a WatchList. The search will display buttons that link to services that the movie is available on (Amazon, Netflix, etc). If the movie searched for is currently in theaters, the site will provide a map with local movie theaters through the use of Google Maps API.",
       github: "https://github.com/namrataffy/The_WatchList",
-      image: "./assets/images/pulpficiton.png",
+      image: require("./images/pulpficiton.png"),
       link:
         "https://www.linkedin.com/posts/arman-riahi_as-a-part-of-the-uc-berkeley-full-stack-development-activity-6613946174774874112-kR4N",
     },

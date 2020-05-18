@@ -13,17 +13,17 @@ const Home = () => {
         <div>
           <div className="main mt-3">
             <div className="row">
-              <div className="col-sm-12">
+              <div className="info col-lg-3">
                 <img
                   src={Constants.IMAGES.HEADSHOT}
-                  className="float-left mr-3 mb-2 image-fluid"
+                  className="profile"
                   alt="profile pic"
-                  width="50%"
-                  height="90%"
                 ></img>
-                <div className="quote">
+              </div>
+              <div className="info col-lg-9">
+                <p className="quote">
                   "If this is my life, then I'm TOkyo Driftin UH" - Curry
-                </div>
+                </p>
               </div>
             </div>
             <br></br>
@@ -31,19 +31,23 @@ const Home = () => {
         </div>
       </div>
 
-      <div class="container main mb-4 mt-3">
+      <div class=" mb-4 ">
         <div class="row">
           <div class="col-sm-12 ">
             <div class="bigText">Projects</div>
             <div class="borderBot">
-              Click on the image thumbnails to redirect to live site for each
-              project!
+              <div className="text">
+                Click on the image thumbnails to redirect to live site for each
+                project!
+              </div>
             </div>
           </div>
         </div>
-        {Constants.PROJECTS.map((project) => (
-          <Proj value={project}></Proj>
-        ))}
+        <div className="container">
+          {Constants.PROJECTS.map((project) => (
+            <Proj value={project}></Proj>
+          ))}
+        </div>
       </div>
     </div>
   );
