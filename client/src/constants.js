@@ -1,6 +1,6 @@
 const Constants = {
   IMAGES: {
-    HEADSHOT: require("./images/me.jpg"),
+    HEADSHOT: require("./images/Arman-1.png"),
   },
   LINKS: {
     EMAIL: "mailto:armanriahi1@gmail.com",
