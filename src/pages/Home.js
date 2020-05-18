@@ -31,7 +31,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div class=" mb-4 ">
+      <div class=" container mb-4 ">
         <div class="row">
           <div class="col-sm-12 ">
             <div class="bigText">Projects</div>
