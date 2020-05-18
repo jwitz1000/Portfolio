@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Constants from "../../assets/constants";
+import Constants from "../../constants";
 
 class SideBar extends Component {
   render() {
