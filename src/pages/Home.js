@@ -22,7 +22,8 @@ const Home = () => {
               </div>
               <div className="info col-lg-9">
                 <p className="quote">
-                  "If this is my life, then I'm TOkyo Driftin UH" - Curry
+                  "I'm a big believer in acts of kindness, no matter how small."
+                  <br /> -Liam Neeson
                 </p>
               </div>
             </div>
