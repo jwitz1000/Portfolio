@@ -6,7 +6,6 @@ const Constants = {
     EMAIL: "mailto:armanriahi1@gmail.com",
     LINKEDIN: "https://www.linkedin.com/in/arman-riahi/",
     GITHUB: "https://github.com/namrataffy",
-    RESUME: "",
   },
   ICONS: {
     EMAIL: require("./images/emailIcon.png"),
