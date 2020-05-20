@@ -10,6 +10,12 @@ span {
   vertical-align: middle;
 }
 
+a {
+  background-color: transparent;
+  text-decoration: None;
+  color: black;
+}
+
 .bar {
   right: 1%;
   top: 0;
