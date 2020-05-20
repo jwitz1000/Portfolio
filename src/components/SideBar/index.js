@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Constants from "../../constants";
-import armani from "./Arman_Riahi_Resume_2020 copy.pdf";
+import armani from "./resume.pdf";
 
 class SideBar extends Component {
   render() {
@@ -9,7 +9,7 @@ class SideBar extends Component {
         <ul className="icon-ul">
           <li className="icon-list">
             <span>
-              <a href={armani}>
+              <a href={Constants.LINKS.EMAIL}>
                 <img
                   className="icon pop"
                   src={Constants.ICONS.EMAIL}
@@ -42,7 +42,7 @@ class SideBar extends Component {
           </li>
           <li className="icon-list">
             <span>
-              <a href={Constants.LINKS.RESUME}>
+              <a href={armani}>
                 <img
                   className="icon pop"
                   src={Constants.ICONS.RESUME}
