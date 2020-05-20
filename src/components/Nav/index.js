@@ -8,6 +8,9 @@ import {
   NavItem,
   NavLink,
 } from "reactstrap";
+import Constants from "../../constants";
+import { constant } from "async";
+import armani from "../SideBar/resume.pdf";
 
 const TheNav = (props) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -22,15 +25,16 @@ const TheNav = (props) => {
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
             <NavItem>
-              <NavLink href="/projects">Projects</NavLink>
+              <NavLink href={Constants.LINKS.EMAIL}>Email</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="https://www.linkedin.com/in/arman-riahi/">
-                LinkedIn
-              </NavLink>
+              <NavLink href={Constants.LINKS.LINKEDIN}>LinkedIn</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="https://github.com/namrataffy">GitHub</NavLink>
+              <NavLink href={Constants.LINKS.GITHUB}>GitHub</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink href={armani}>Resume</NavLink>
             </NavItem>
           </Nav>
         </Collapse>

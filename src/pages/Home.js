@@ -1,6 +1,7 @@
 import React from "react";
 import Constants from "../constants";
 import Proj from "../components/Proj";
+import TheNav from "../components/Nav";
 
 const Home = () => {
   return (
@@ -8,7 +9,9 @@ const Home = () => {
       <header id="header" className="parallax">
         <p className="name">Arman Riahi</p>
       </header>
-
+      <div className="navy">
+        <TheNav />
+      </div>
       <div className="about container">
         <div>
           <div className="main mt-3">
